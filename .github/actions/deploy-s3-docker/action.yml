@@ -15,5 +15,5 @@ outputs:
   website-url:
     description: "The folder containing the deployment files"
 runs:
-  using: "node16"
-  main: "main.js"
+  using: "docker"
+  image: "Dockerfile"
